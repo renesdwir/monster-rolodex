@@ -1,8 +1,0 @@
-.cardlist-wrapper {
-  display: flex;
-  background-color: pink;
-  max-width: 90%;
-  margin: auto;
-  flex-wrap: wrap;
-  gap: 30px;
-}

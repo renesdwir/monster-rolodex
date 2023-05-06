@@ -1,0 +1,25 @@
+.card-wrapper {
+  background-color: #feff86;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 150ms;
+  padding: 25px;
+}
+.card-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.title,
+.email {
+  text-align: center;
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.email {
+  margin-bottom: 0;
+}

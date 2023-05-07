@@ -1,0 +1,23 @@
+.cardlist-wrapper {
+  width: 1200px;
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .cardlist-wrapper {
+    width: 900px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .cardlist-wrapper {
+    width: 500px;
+    grid-template-columns: 1fr;
+  }
+}
